@@ -1,0 +1,3 @@
+[submodule "MERN-Stack"]
+	path = MERN-Stack
+	url = https://github.com/blazino17/MERN-Stack.git
