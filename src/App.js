@@ -19,12 +19,13 @@ componentDidMount(){
 async refreshNotes(){
   fetch(this.API_URL+"api/todoapp/GetNotes").then(response=>response.json())
   .then(data=>{
+   
      this.setState({notes:data});
   })
 }
 
 async addClick(){
-  var newNotes=document.getElementById("newNotes").Value;
+  var newNotes=document.getElementById("newNotes").value;
   const data=new FormData();
   data.append("newNotes",newNotes);
 
