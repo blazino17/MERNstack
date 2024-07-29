@@ -7,7 +7,7 @@ var app = Express();
 app.use(cors());
 
 var CONNECTION_STRING =
-  "mongodb+srv://loanerAdmin:loanerAdminPass@muzingo.hulnt.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+  "mongodb+srv://blazino17:Amakasin1.@cluster0.a53q7kc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 var DATABASENAME = "todoappdb";
 var database;
